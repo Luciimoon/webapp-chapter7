@@ -5,7 +5,7 @@ import glob
 import athletemodel
 import yate
 
-data_files = glob.glob("data/*.txt")
+data_files = glob.glob("james.txt")
 athletes = athletemodel.put_to_store(data_files)
 
 print(yate.start_response())
